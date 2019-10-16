@@ -4,11 +4,12 @@ class Dog
     puts "woof!"
   end
   
-  def name=
+  def name=(this_dog_name)
+    @my_name = this_dog_name
     
   end
   
   def name
-    
+    @my_name
   end
 end
